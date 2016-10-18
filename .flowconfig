@@ -1,0 +1,10 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/fbjs/.*
+
+[include]
+*/src/*
+
+[options]
+module.name_mapper='.*\(.css\)' -> 'CSSModule'
+module.system=node
+strip_root=true
